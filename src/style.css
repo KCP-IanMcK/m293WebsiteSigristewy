@@ -307,6 +307,14 @@ width: 45vw;
 .description-big {
 display: none;
 }
+
+select {
+width: 100%;
+}
+
+.input-amount {
+width: 95%;
+}
 }
 
 @media (min-width: 601px) {
@@ -335,8 +343,13 @@ p {
 font-size: 1rem;
 }
 
+select {
+height: 3vh;
+}
+
 label {
 font-size: 1rem;
+display: block;
 }
 
 button {
@@ -428,6 +441,7 @@ justify-content: center;
 
 .input-amount {
 height: 2vh;
+width: 69%;
 }
 
 .detail-title {
@@ -445,6 +459,7 @@ padding-left: 2rem;
 padding-right: 2rem;
 padding-top: 0.5rem;
 padding-bottom: 0.5rem;
+width: 70%;
 }
 
 .webshop-big {
