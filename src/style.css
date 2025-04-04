@@ -1,0 +1,480 @@
+h1 {
+padding-left: 0.2rem;
+font-size: 1.3rem;
+font-family: 'Helvetica', sans-serif;
+font-weight: bold;
+}
+
+h2 {
+padding-left: 0.2rem;
+font-size: 1rem;
+font-family: 'Helvetica', sans-serif;
+font-weight: bold;
+}
+
+h3 {
+padding-left: 0.2rem;
+font-size: 0.75rem;
+font-family: 'Helvetica', sans-serif;
+font-weight: bold;
+}
+
+ul, li {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+li {
+cursor: pointer;
+}
+
+ul {
+display: flex;
+flex-direction: row;
+}
+
+form {
+display: flex;
+flex-direction: column;
+padding: 0.5rem;
+}
+
+label {
+font-size: 0.8rem;
+}
+
+input {
+background-color: #DCDCDC;
+border-radius: 5px;
+height: 4vh;
+}
+
+p {
+padding-left: 0.4rem;
+padding-right: 0.4rem;
+font-size: 0.7rem;
+font-family: 'Helvetica', sans-serif;
+}
+
+header {
+position: fixed;
+width: 100%;
+}
+
+body {
+margin: 0;
+padding: 0;
+}
+
+main {
+height: auto;
+}
+
+.main-welcome-div {
+display: flex;
+flex-direction: column;
+padding-top: 26vh;
+}
+
+.welcome-text {
+padding-top: 1rem;
+text-align: center;
+width: 95%;
+padding-left: 0.2rem;
+font-family: 'Helvetica', sans-serif;
+font-weight: bold;
+}
+
+.popular-products-div {
+}
+
+.product-instance {
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+}
+
+.product-image {
+aspect-ratio: 1 / 1;
+}
+
+.scroll-container {
+overflow-x: scroll;
+}
+
+footer {
+border-top: 1px solid gray;
+}
+
+button {
+background: none;
+border: none;
+font-family: 'Helvetica', sans-serif;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #CCCCCC;
+}
+
+.abo-button {
+background-color: #1F1F1F;
+color: white;
+border-radius: 3px;
+margin-top: 0.5rem;
+width: 30%;
+}
+
+.black-button {
+background-color: #1F1F1F;
+color: white;
+border-radius: 3px;
+margin-top: 0.5rem;
+font-weight: bold;
+}
+
+.rights {
+padding-top: 0.2rem;
+text-align: center;
+}
+
+.header-images {
+width: 100%;
+height: 23vh;
+top: 0;
+left: 0;
+position: absolute;
+overflow: hidden;
+}
+
+.header-image {
+width: 100vw;
+object-fit: cover;
+}
+
+.header-logo {
+position: absolute;
+bottom: 10%;
+left: 0;
+object-fit: cover;
+width: 50%;
+}
+
+.header-navigation {
+width: 100%;
+height: 5vh;
+margin-top: 21.9vh;
+background-color: white;
+}
+
+.header-navigation-button {
+width: 32%;
+height: 100%;
+margin: 0;
+border-radius: 0px;
+background-color: #FFFFFF;
+font-size: 2.5rem;
+}
+
+.wine-navigation {
+display: flex;
+flex-direction: row;
+justify-content: center;
+padding-top: 0.5rem;
+}
+
+.single-element {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.single-topic-list {
+padding-top: 1rem;
+}
+
+.list-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.detail-top-container {
+display: flex;
+flex-direction: row;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+justify-content: space-between;
+}
+
+.detail-top-info {
+padding-right: 0.5rem;
+}
+
+.detail-image {
+width: 45vw;
+height: 100%;
+align-self: center;
+}
+
+.input-amount {
+width: 65%;
+margin-right: 2rem;
+}
+
+.description {
+margin-bottom: 2rem;
+}
+
+.price {
+margin-top: 0;
+}
+
+.about-images {
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 0.5rem;
+align-items: center;
+}
+
+.about-image {
+aspect-ratio: auto;
+width: 45vw;
+height: 100%;
+}
+
+.contact-container {
+border-top: 1px solid gray;
+}
+
+.contact-address {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.contact-input {
+margin-bottom: 0.5rem;
+}
+
+.message {
+height: 10vh;
+}
+
+.contact-select {
+width: 50%;
+margin-bottom: 0.5rem;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+
+label {
+font-weight: bold;
+font-family: 'Helvetica', sans-serif;
+}
+
+.top-element {
+padding-top: 25vh;
+}
+
+.header-images {
+height: 23vh;
+}
+
+.header-logo {
+width: 50%;
+}
+
+.header-navigation {
+margin-top: 21.9vh;
+}
+
+.header-navigation-button {
+font-size: 0.9rem;
+}
+
+.product-image {
+width: 45vw;
+}
+
+.description-big {
+display: none;
+}
+}
+
+@media (min-width: 601px) {
+
+main {
+padding-top: 1px;
+}
+
+.top-element {
+padding-top: 65vh;
+}
+
+h1 {
+font-size: 2rem;
+}
+
+h2 {
+font-size: 1.5rem;
+}
+
+h3 {
+font-size: 1.2rem;
+}
+
+p {
+font-size: 1rem;
+}
+
+label {
+font-size: 1rem;
+}
+
+button {
+font-size: 1.5rem;
+margin-bottom: 7px;
+}
+
+footer {
+padding-left: 25vw;
+padding-right: 25vw;
+width: 50vw;
+}
+
+.wine-navigation {
+gap: 6vw;
+margin-right: 0px;
+margin-left: 0px;
+}
+
+.wine-navigation-container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+gap: 5vw;
+}
+
+.header-images {
+height: 60vh;
+}
+
+.header-logo {
+width: 30%;
+}
+
+.header-navigation {
+margin-top: 61vh;
+width: 104vw;
+}
+
+.header-navigation-button {
+font-size: 1.5rem;
+}
+
+.product-image {
+width: 15vw;
+}
+
+.popular-products-div {
+padding-left: 13vw;
+padding-right: 13vw;
+}
+
+.main-welcome-div {
+flex-direction: row;
+padding-top: 63vh;
+width: 100%;
+}
+
+.welcome-text {
+padding-top: 10vh;
+margin-left: 8vw;
+margin-right: 8vw;
+width: 100vw;
+font-size: 2rem;
+}
+
+.start-info {
+padding-top: 3vh;
+}
+
+.start-info-text {
+padding-right: 13vw;
+padding-left: 1vw;
+}
+
+.abo-button {
+height: 5vh;
+}
+
+.detail-image {
+width: 20vw;
+}
+
+.detail-top-container {
+justify-content: center;
+}
+
+.input-amount {
+height: 2vh;
+}
+
+.detail-title {
+text-align: center;
+font-size: 3rem;
+}
+
+.description {
+display: none;
+}
+
+.black-button {
+margin-top: 1rem;
+padding-left: 2rem;
+padding-right: 2rem;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+}
+
+.webshop-big {
+padding-left: 11vw;
+}
+
+.about-main {
+margin-left: 15vw;
+margin-right: 15vw;
+width: 70vw;
+}
+
+.about-image {
+max-width: 15vw;
+}
+
+.about-images {
+gap: 2rem;
+}
+
+.contact-address {
+justify-content: left;
+gap: 1rem;
+}
+
+.message {
+width: 50%;
+}
+
+.contact-input {
+width: 50%;
+}
+}

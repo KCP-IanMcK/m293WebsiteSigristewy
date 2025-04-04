@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Über uns</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+</head>
+<body>
+<header class="header">
+    <div class="header-images">
+        <img src="../images/20210706_145227.jpg" class="header-image">
+        <img src="../images/cropped-logo.png" class="header-logo">
+    </div>
+    <div class="header-navigation">
+        <button onclick="navigate('/SigristewyWebsite/index.html')" class="header-navigation-button">Startseite</button>
+        <button onclick="navigate('http://localhost:63342/SigristewyWebsite/webshop.html')"
+                class="header-navigation-button">Webshop
+        </button>
+        <button class="header-navigation-button" onclick="navigate('http://localhost:63342/SigristewyWebsite/about.html')">Über uns</button>
+    </div>
+</header>
+
+<main class="top-element about-main">
+    <h1 class="single-element">Über uns</h1>
+    <h2>Familie Claudia und Reto Huwiler mit
+        Pit, Ravin und Jari</h2>
+    <p>
+        Reto Huwiler ist gelernter Maschinenmechaniker und hat eine landwirtschaftliche Grundausbildung absolviert.
+        Anfang 2012 hat er den Betrieb von den Eltern übernommen und widmet sich nebst den Aufgaben der Betriebsführung
+        vor allem der Arbeit mit den Tieren, den Reben und der Pflege der Wiesen und Weiden, sowie der
+        Fleischverwertung.
+    </p>
+    <p>Claudia arbeitet ausserhalb des Betriebes und hilft bei Bedarf sowie bei besonderen Arbeitsspitzen wie z.B. beim
+        Wümmen.</p>
+    <div class="about-images">
+        <img class="about-image" src="https://sigrischtewy.ch/wp-content/uploads/2016/12/IMG_3722-570x380.jpg">
+        <img class="about-image" src="https://sigrischtewy.ch/wp-content/uploads/2016/12/portrait.jpg">
+    </div>
+    <p>
+        Fritz und Esther Huwiler haben unseren Betrieb seit Jahrzehnten mit viel Hingabe aufgebaut. Sie lieben die
+        Natur,
+        dieTiere und das Arbeiten im Freien und haben einen wertvollen Erfahrungsschatz in allen Belangen.
+        Esther macht die Fleischvermarktung, hilft in den Reben sowie bei den Tieren, und ist auch die Gastro-Chefin für
+        unsere gelegentlichen Anlässe auf dem Hof. In Esthers Garten gedeiht biologisches Gemüse für den Eigengebrauch
+        und dank den vielen Blumen und Wildkräutern hat es Platz für allerlei Arten von nützlichen Insekten. Mit den
+        Blumen, die von ihr gezogen und gepflegt werden, schmückt Esther gerne die kleine Dorfkirche, die unmittelbar
+        neben dem Hof steht. Fritz macht alles was es auf dem Hof zu tun gibt. Er ist gern in den Reben und bei den
+        Tieren und ist ein vielseitiger Maschinist und Chauffeur für alle Bereiche. Bei der Fleischverwertung ist er der
+        erfahrene Mann und macht die besten Bratwürste, sowie das beliebte „Oki-Fleisch“ im Barbecue-Ofen für das
+        Hoffest.
+    </p>
+
+    <div class="contact-container">
+        <h1>Kontakt</h1>
+        <h2>Adresse</h2>
+        <div class="contact-address">
+            <p>
+                Reto + Claudia Huwiler
+                <br>Stockenstrasse 286
+                <br>8195 Wasterkingen/ZH
+                <br>Telefon 044 869 27 79
+                <br>Natel 079 258 04 77
+                <br>reto_huwiler@bluewin.ch</p>
+            <p>
+                Fritz + Esther Huwiler
+                <br>Oberdorfstrasse 43
+                <br>8195 Wasterkingen/ZH
+                <br>Telefon 044 869 05 88
+                <br>fritz.huwiler@bluewin.ch
+            </p>
+        </div>
+
+        <h2>Kontakt</h2>
+        <form class="contact-form">
+            <input class="contact-input" type="text" placeholder="Ihr Name">
+            <input class="contact-input" type="email" placeholder="E-Mail-Adresse">
+            <input class="contact-input" type="tel" placeholder="Telefonnummer">
+            <label for="topic">Betreff</label>
+            <select id="topic" class="contact-select">
+                <option>Abholung</option>
+                <option>Versand</option>
+                <option>Wein</option>
+                <option>Fleisch</option>
+                <option>Hof</option>
+                <option>Anderes</option>
+            </select>
+            <label for="message">Nachricht</label>
+            <textarea id="message" class="contact-input message">
+        </textarea>
+            <button class="abo-button">Senden</button>
+        </form>
+    </div>
+</main>
+
+<footer>
+    <h2>Anmeldung Newsletter</h2>
+    <p>3-4 mal pro Jahr verschicken wir einen Newsletter mit Informationen zu Degustationen und Aktionen</p>
+    <form>
+        <label for="prename">Vorname</label>
+        <input id="prename" placeholder="Max">
+
+        <label for="lastname">Nachname</label>
+        <input id="lastname" placeholder="Mustermann">
+
+        <label for="email">Email</label>
+        <input id="email" placeholder="max.mustermann@email.com">
+
+        <button class="abo-button">Abonnieren</button>
+    </form>
+    <p class="rights">
+        Copyright © 2025 Familie Huwiler - All rights reserved
+    </p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blauburgunder 75cl</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js"></script>
+</head>
+<body>
+<header class="header">
+  <div class="header-images">
+    <img src="../images/20210706_145227.jpg" class="header-image">
+    <img src="../images/cropped-logo.png" class="header-logo">
+  </div>
+  <div class="header-navigation">
+    <button onclick="navigate('/SigristewyWebsite/index.html')" class="header-navigation-button">Startseite</button>
+    <button onclick="navigate('http://localhost:63342/SigristewyWebsite/webshop.html')" class="header-navigation-button">Webshop</button>
+    <button class="header-navigation-button" onclick="navigate('http://localhost:63342/SigristewyWebsite/about.html')">Über uns</button>
+  </div>
+</header>
+
+<main class="top-element">
+  <h1 class="detail-title">Blauburgunder 75cl</h1>
+  <div class="detail-top-container">
+    <div class="detail-top-info">
+      <h2 class="price">12.00 CHF - 72.00 CHF</h2>
+      <p>zzgl. Versandkosten</p>
+      <p>zzgl. Depot für Harass und Flaschen</p>
+      <label for="dropdown" class="label">Variante</label>
+      <select id="dropdown">
+        <option>Einzelflasche</option>
+        <option>3er-Geschenkkarton</option>
+        <option>6er-Karton</option>
+      </select>
+      <p></p>
+      <label for="amount">Menge</label>
+      <input id="amount" min="1" value="1" type="number" class="input-amount">
+      <button class="black-button">Zum Warenkorb hinzufügen</button>
+      <div class="description-big">
+        <h2>Beschreibung</h2>
+        <p> Alkoholgehalt ca. 13% vol</p>
+        <p> Einzelflasche 75 cl Fr. 12.-</p>
+        <p> 3er Geschenkkarton (75 cl) Fr. 38.–</p>
+        <p> 6er Karton (75 cl) Fr. 72.–</p>
+      </div>
+    </div>
+    <img src="../images/bb75.png" class="detail-image">
+  </div>
+  <div class="description">
+    <h2>Beschreibung</h2>
+    <p> Alkoholgehalt ca. 13% vol</p>
+    <p> Einzelflasche 75 cl Fr. 12.-</p>
+    <p> 3er Geschenkkarton (75 cl) Fr. 38.–</p>
+    <p> 6er Karton (75 cl) Fr. 72.–</p>
+  </div>
+  <div class="popular-products-div">
+    <h2>Ähnliche Produkte</h2>
+    <div class="scroll-container">
+      <ul>
+        <li class="product-instance" onclick="navigate('http://localhost:63342/SigristewyWebsite/bb50.html')">
+          <img class="product-image" src="https://sigrischtewy.ch/wp-content/uploads/2016/12/BB_50-300x300.png">
+          <h3>Blauburgunder 50cl</h3>
+          <p>7.50 - 112.50 CHF</p>
+        </li>
+        <li class="product-instance" onclick="navigate('http://localhost:63342/SigristewyWebsite/c75.html')">
+          <img class="product-image" src="https://sigrischtewy.ch/wp-content/uploads/2016/12/Cuvee_75-300x300.png">
+          <h3>Cuvée 75cl</h3>
+          <p>15.00 - 90.00 CHF</p>
+        </li>
+        <li class="product-instance" onclick="navigate('http://localhost:63342/SigristewyWebsite/barrique75.html')">
+          <img class="product-image" src="https://sigrischtewy.ch/wp-content/uploads/2016/12/Barrique_75-300x300.png">
+          <h3>Pinot Noir Barrique</h3>
+          <p>20.00 - 120.00 CHF</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <h2>Anmeldung Newsletter</h2>
+  <p>3-4 mal pro Jahr verschicken wir einen Newsletter mit Informationen zu Degustationen und Aktionen</p>
+  <form>
+    <label for="prename">Vorname</label>
+    <input id="prename" placeholder="Max">
+
+    <label for="lastname">Nachname</label>
+    <input id="lastname" placeholder="Mustermann">
+
+    <label for="email">Email</label>
+    <input id="email" placeholder="max.mustermann@email.com">
+
+    <button class="abo-button">Abonnieren</button>
+  </form>
+  <p class="rights">
+    Copyright © 2025 Familie Huwiler - All rights reserved
+  </p>
+</footer>
+</body>
+</html>
