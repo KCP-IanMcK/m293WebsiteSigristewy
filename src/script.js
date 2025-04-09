@@ -33,3 +33,28 @@ window.addEventListener('scroll', function () {
 function navigate(url) {
 window.location.href = url;
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+const scrollLeftWhitewine = document.getElementById('scroll-left-whitewine');
+const scrollLeftRedwine = document.getElementById('scroll-left-redwine');
+const scrollRightWhitewine = document.getElementById('scroll-right-whitewine');
+const scrollRightRedwine = document.getElementById('scroll-right-redwine');
+const scrollContainerWhitewine = document.getElementById('scroll-container-whitewine');
+const scrollContainerRedwine = document.getElementById('scroll-container-redwine');
+
+scrollLeftWhitewine.addEventListener('click', () => {
+    scrollContainerWhitewine.scrollLeft -= 400;
+})
+
+scrollRightWhitewine.addEventListener('click', () => {
+    scrollContainerWhitewine.scrollLeft += 400;
+})
+
+scrollLeftRedwine.addEventListener('click', () => {
+    scrollContainerRedwine.scrollLeft -= 400;
+})
+
+scrollRightRedwine.addEventListener('click', () => {
+    scrollContainerRedwine.scrollLeft += 400;
+})
+})
