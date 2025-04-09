@@ -6,7 +6,7 @@ window.addEventListener('scroll', function () {
   const headerNavigation = document.querySelector('.header-navigation');
   const mediaQuery1 = window.matchMedia("(max-width: 1200px)");
   const mediaQuery2 = window.matchMedia("(min-width: 1201px)");
-  const mediaQuery3 = window.matchMedia("(min-width: 1200px) and (max-width: 1600px)");
+  const mediaQuery3 = window.matchMedia("(min-width: 1000px) and (max-width: 1600px)");
   const windowHeight = window.innerHeight;
 
   let newHeight;
