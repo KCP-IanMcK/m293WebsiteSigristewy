@@ -4,8 +4,8 @@ window.addEventListener('scroll', function () {
   const main = document.querySelector('.top-element');
   const scrollTop = window.scrollY;
   const headerNavigation = document.querySelector('.header-navigation');
-  const mediaQuery1 = window.matchMedia("(max-width: 600px)");
-  const mediaQuery2 = window.matchMedia("(min-width: 601px)");
+  const mediaQuery1 = window.matchMedia("(max-width: 720px)");
+  const mediaQuery2 = window.matchMedia("(min-width: 721px)");
   const windowHeight = window.innerHeight;
 
   let newHeight;
