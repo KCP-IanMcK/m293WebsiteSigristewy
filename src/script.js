@@ -4,13 +4,19 @@ window.addEventListener('scroll', function () {
   const main = document.querySelector('.top-element');
   const scrollTop = window.scrollY;
   const headerNavigation = document.querySelector('.header-navigation');
-  const mediaQuery1 = window.matchMedia("(max-width: 720px)");
-  const mediaQuery2 = window.matchMedia("(min-width: 721px)");
+  const mediaQuery1 = window.matchMedia("(max-width: 1200px)");
+  const mediaQuery2 = window.matchMedia("(min-width: 1201px)");
+  const mediaQuery3 = window.matchMedia("(min-width: 1200px) and (max-width: 1600px)");
   const windowHeight = window.innerHeight;
 
   let newHeight;
 
-  if (mediaQuery2.matches) {
+   if (mediaQuery3.matches) {
+          newHeight = windowHeight * 0.45 - scrollTop;
+          if (newHeight < windowHeight * 0.18) {
+              newHeight = windowHeight * 0.18;
+          }
+    } else if (mediaQuery2.matches) {
     newHeight = windowHeight * 0.6 - scrollTop;
     if (newHeight < windowHeight * 0.18) {
         newHeight = windowHeight * 0.18;
