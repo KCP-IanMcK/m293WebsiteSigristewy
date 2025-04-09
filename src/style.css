@@ -515,4 +515,8 @@ width: 50%;
 .contact-input {
 width: 50%;
 }
+
+.arrow-navigation {
+display: none;
+}
 }
