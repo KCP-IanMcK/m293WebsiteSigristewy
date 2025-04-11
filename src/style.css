@@ -134,8 +134,8 @@ color: white;
 border-radius: 3px;
 margin-top: 0.5rem;
 font-weight: bold;
-height: 7vh;
 width: 99%;
+min-height: 5vh;
 }
 
 .rights {
@@ -513,7 +513,6 @@ padding-right: 2rem;
 padding-top: 0.5rem;
 padding-bottom: 0.5rem;
 width: 70%;
-height: 5vh;
 }
 
 .webshop-big {
